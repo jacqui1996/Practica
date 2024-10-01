@@ -1,0 +1,405 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .cabecerafijo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #01aeb4a9;
+    color: #fff;
+    padding: 10px 0;
+    z-index: 1000; 
+    /* posicion encima del resto del contenido */
+  }
+  
+  .cajaprincipal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .logo img {
+    height: 50px; /* Ajusta la altura según tu necesidad */
+  }
+  
+  .menubotones ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menubotones ul li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .menubotones ul li:first-child {
+    margin-left: 0;
+    /* es un selector en CSS que apunta
+     al primer elemento <li> que es hijo directo de su contenedor*/
+  }
+  
+  .menubotones ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 15px;
+    border-radius: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menubotones ul li a:hover {
+    background-color: #9e00fa;
+    color: #0e0e0e;
+  }
+
+
+/*aquí inicia el main principal*/
+
+.primera-seccion {
+    background-image: url('../image/fondo02.jpg'); 
+    /* Ruta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-color: #f2f2f2;
+    padding: 0 0;
+    text-align: center;
+  }
+  
+  .contenedoruno{
+    max-width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    padding: 100px 20px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgba(17, 17, 17, 0.7); 
+    /* Cambia el valor alpha para ajustar la opacidad */
+  }
+  
+ .contenedoruno h1 {
+    font-size: 36px;
+    letter-spacing: normal;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    color: #ffffff;
+  }
+  
+  .contenedoruno h2 {
+    font-size: 24px;
+    margin-bottom: 50px;
+    color: #d0f6e7;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: #02d3f8;
+    color: #0e0e0e;
+    text-decoration: none;
+    border: 4px solid #05196800;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+  }
+ 
+  .btn:hover {
+    background-color: #ffffffdc;
+    color: #008289;
+    border: 4px solid #ffffff00;
+  }
+
+
+
+  /*creando la seccion 02 del contenido de
+  la pagina*/
+  .segunda-seccion {
+    background-color: #79c4f6;
+    padding: 50px 0;
+    border-radius: 5px;
+  }
+ .contenedordos {
+    max-width: 1200px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .division {
+    flex: 1;
+    text-align: center;
+    padding: 0 10px;
+  }
+  .imagen img {
+    max-width: 100%;
+    height: 250px;
+    border: 2px solid #04416a;
+    padding: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* sombra */
+  }
+  .division h1 {
+    color: #04416a;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+ .division h2 {
+  color: #d9f5f2;
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  .division p {
+    color: #555252;
+    font-size: 14px;
+    line-height:20px ;
+    margin-bottom: 30px;
+  }
+  .division a {
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: #04416a;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #eaedef;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .division a:hover {
+    color: #04416a;
+    background-color: #92efe4;
+  }
+
+
+  /*creando la seccion 03 del contenido de
+  la pagina*/
+
+  .tercera-seccion {
+    background-color: #f4fde8;
+    padding: 50px 0;
+    border-radius: 5px;
+   
+    }
+
+  .tercera-seccion h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #3388e9;
+  }
+
+  .tercera-seccion p {
+    color: #535656;
+    text-align: center;
+    font-size: 14px;
+    line-height:20px ;
+    margin-bottom: 10px;
+  }
+
+  .contenedortres {
+    max-width: 1200px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+  }
+
+  .contenedortres .column {
+    flex: 1;
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .contenedortres .column img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #04416a;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* sombra */
+  }
+
+  .contenedortres .column p {
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 20px;
+  }
+
+  .contenedortres .column a {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #9eb38d;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+
+  .contenedortres .column a:hover {
+    background-color: #0056b3;
+  }
+
+
+  .botonlibre {
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .tercera-seccion .botonlibre a {
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: #dfa209;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease
+  }
+
+  .tercera-seccion .botonlibre a:hover {
+    background-color: #000000;
+  }
+
+
+
+  /*creando la seccion 04 del contenido de
+  la pagina*/
+
+  .cuarta-seccion {
+    background-color: #393c37;
+    padding: 50px 0;
+    border-radius: 5px;
+  }
+
+  .contenedorcuatro {
+    max-width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .cuarta-seccion h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #daf5fa;
+  }
+
+  .cuarta-seccion p {
+    color: #e3f5cb;
+    text-align: center;
+    font-size: 16px;
+    line-height:20px ;
+    margin-bottom: 10px;
+  }
+
+  .item {
+    width: 25%;
+    height: auto; 
+    /* Para asegurar que cada columna tenga un ancho similar */
+    border: 1px solid #ccc;
+    padding: 50px;
+    text-align: center;
+  }
+
+
+  .item img {
+    max-width: 100%;
+    height: 250px;
+    
+  }
+
+
+  .botonlibre2 {
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .cuarta-seccion .botonlibre2 a {
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: #dfa209;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease
+  }
+
+  .cuarta-seccion .botonlibre2 a:hover {
+    background-color: #000000;
+  }
+
+
+
+
+/*creando el Footer - pie de pagina final de
+  la pagina*/
+  
+  .footer {
+    background-color: #030d36;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .filas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  h2, p {
+    color: #fff;
+    margin: 0;
+  }
+  
+  .social-icons1 {
+    display: flex;
+  }
+  
+
+
+  /* Aquí puedes agregar tu CSS */
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #d5f0f4;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #0077b5; /* Cambia esto según el color que desees para el hover */
+}
+  
+
+  
